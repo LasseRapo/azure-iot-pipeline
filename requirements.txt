@@ -1,0 +1,6 @@
+# Azure IoT Edge Project Dependencies
+
+azure-iot-device==2.13.1
+azure-eventhub==5.11.5
+azure-core==1.30.1
+python-dotenv==0.21.1
