@@ -9,12 +9,15 @@ Minimal, reproducible setup for an Edge → IoT Hub → Event Hub data flow usin
 
 ```
 .
-├─ iot-device/          # Edge module (simulated temperature device)
+├─ iot-device/                 # Edge module (simulated temperature device)
 │  ├─ Dockerfile
 │  └─ main.py
-├─ event-consumer/      # Local/Event Hub consumer
-│  └─ main.py
-└─ requirements.txt
+├─ event-consumer/             # Local/Event Hub consumer
+│  ├─ main.py
+│  ├─ .env.example             # Template for environment variables
+│  └─ .env                     # (Not committed) real secrets
+├─ requirements.txt
+└─ README.md
 ```
 
 ## 2. Prerequisites
